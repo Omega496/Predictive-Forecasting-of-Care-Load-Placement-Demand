@@ -1,0 +1,64 @@
+Target,Horizon,Model,Model_Family,MAE,RMSE,MAPE,Accuracy,Directional_Accuracy,Stability_Index
+Care Load,7 Days,Naïve Persistence,Baseline,31.51,34.35,1.4,98.6,74.34,0.998
+Care Load,7 Days,Moving Average (7d),Baseline,47.27,50.61,2.11,97.89,10.62,1.0
+Care Load,7 Days,Holt-Winters Exp Smoothing,Statistical,25.24,29.43,1.13,98.87,77.88,0.983
+Care Load,7 Days,SARIMAX (ARIMA),Statistical,23.93,28.63,1.07,98.93,76.11,0.985
+Care Load,7 Days,Random Forest Regressor,Machine Learning,86.6,119.09,4.01,95.99,95.58,0.991
+Care Load,7 Days,Gradient Boosting Regressor,Machine Learning,121.07,169.17,5.44,94.56,95.58,0.95
+Care Load,7 Days,XGBoost Regressor,Machine Learning,66.12,77.57,3.0,97.0,58.41,0.986
+Care Load,14 Days,Naïve Persistence,Baseline,60.73,64.57,2.69,97.31,75.47,0.998
+Care Load,14 Days,Moving Average (7d),Baseline,77.44,80.78,3.43,96.57,6.6,1.0
+Care Load,14 Days,Holt-Winters Exp Smoothing,Statistical,40.38,48.51,1.8,98.2,86.79,0.955
+Care Load,14 Days,SARIMAX (ARIMA),Statistical,36.55,45.1,1.64,98.36,87.74,0.968
+Care Load,14 Days,Random Forest Regressor,Machine Learning,83.72,108.57,3.86,96.14,100.0,0.991
+Care Load,14 Days,Gradient Boosting Regressor,Machine Learning,134.62,156.83,6.12,93.88,100.0,0.952
+Care Load,14 Days,XGBoost Regressor,Machine Learning,110.22,133.9,5.02,94.98,99.06,0.948
+Care Load,30 Days,Naïve Persistence,Baseline,128.89,131.45,5.61,94.39,75.56,0.997
+Care Load,30 Days,Moving Average (7d),Baseline,145.14,147.28,6.32,93.68,7.78,0.999
+Care Load,30 Days,Holt-Winters Exp Smoothing,Statistical,80.94,99.11,3.54,96.46,92.22,0.748
+Care Load,30 Days,SARIMAX (ARIMA),Statistical,81.81,94.59,3.56,96.44,92.22,0.893
+Care Load,30 Days,Random Forest Regressor,Machine Learning,115.4,132.97,5.14,94.86,100.0,0.985
+Care Load,30 Days,Gradient Boosting Regressor,Machine Learning,108.24,121.9,4.79,95.21,100.0,0.974
+Care Load,30 Days,XGBoost Regressor,Machine Learning,126.45,140.1,5.6,94.4,100.0,0.958
+Discharge Demand,7 Days,Naïve Persistence,Baseline,3.19,4.65,50.42,49.58,75.22,0.0
+Discharge Demand,7 Days,Moving Average (7d),Baseline,5.07,5.91,40.05,59.95,61.06,0.987
+Discharge Demand,7 Days,Holt-Winters Exp Smoothing,Statistical,5.29,6.14,47.83,52.17,60.18,0.991
+Discharge Demand,7 Days,SARIMAX (ARIMA),Statistical,5.29,6.14,48.3,51.7,58.41,0.994
+Discharge Demand,7 Days,Random Forest Regressor,Machine Learning,2.79,3.8,46.34,53.66,66.37,0.173
+Discharge Demand,7 Days,Gradient Boosting Regressor,Machine Learning,4.25,5.49,62.32,37.68,63.72,0.502
+Discharge Demand,7 Days,XGBoost Regressor,Machine Learning,4.23,5.27,55.26,44.74,65.49,0.557
+Discharge Demand,14 Days,Naïve Persistence,Baseline,3.21,4.72,53.36,46.64,74.53,0.0
+Discharge Demand,14 Days,Moving Average (7d),Baseline,5.23,6.02,47.74,52.26,54.72,0.987
+Discharge Demand,14 Days,Holt-Winters Exp Smoothing,Statistical,5.36,6.22,51.09,48.91,52.83,0.992
+Discharge Demand,14 Days,SARIMAX (ARIMA),Statistical,5.35,6.21,50.61,49.39,50.94,0.994
+Discharge Demand,14 Days,Random Forest Regressor,Machine Learning,2.81,3.9,46.52,53.48,66.04,0.145
+Discharge Demand,14 Days,Gradient Boosting Regressor,Machine Learning,3.71,4.66,44.66,55.34,65.09,0.393
+Discharge Demand,14 Days,XGBoost Regressor,Machine Learning,3.91,4.8,50.23,49.77,63.21,0.263
+Discharge Demand,30 Days,Naïve Persistence,Baseline,8.06,9.61,63.28,36.72,54.44,0.0
+Discharge Demand,30 Days,Moving Average (7d),Baseline,5.22,6.07,45.8,54.2,78.89,0.987
+Discharge Demand,30 Days,Holt-Winters Exp Smoothing,Statistical,6.69,8.04,64.29,35.71,72.22,0.993
+Discharge Demand,30 Days,SARIMAX (ARIMA),Statistical,6.9,8.29,66.14,33.86,67.78,0.986
+Discharge Demand,30 Days,Random Forest Regressor,Machine Learning,4.99,6.43,85.96,14.04,87.78,0.0
+Discharge Demand,30 Days,Gradient Boosting Regressor,Machine Learning,5.9,7.03,93.2,6.8,86.67,0.0
+Discharge Demand,30 Days,XGBoost Regressor,Machine Learning,5.43,6.65,96.0,4.0,86.67,0.0
+Net Flow Imbalance,7 Days,Naïve Persistence,Baseline,4.73,7.69,235.05,0.0,73.45,0.0
+Net Flow Imbalance,7 Days,Moving Average (7d),Baseline,3.89,5.73,107.12,0.0,60.18,0.957
+Net Flow Imbalance,7 Days,Holt-Winters Exp Smoothing,Statistical,5.13,6.51,185.79,0.0,59.29,0.987
+Net Flow Imbalance,7 Days,SARIMAX (ARIMA),Statistical,4.53,6.15,147.35,0.0,60.18,0.979
+Net Flow Imbalance,7 Days,Random Forest Regressor,Machine Learning,3.77,5.77,107.63,0.0,55.75,0.95
+Net Flow Imbalance,7 Days,Gradient Boosting Regressor,Machine Learning,3.93,5.88,116.03,0.0,53.98,0.905
+Net Flow Imbalance,7 Days,XGBoost Regressor,Machine Learning,4.13,5.98,143.32,0.0,54.87,0.901
+Net Flow Imbalance,14 Days,Naïve Persistence,Baseline,5.01,8.01,225.12,0.0,72.64,0.0
+Net Flow Imbalance,14 Days,Moving Average (7d),Baseline,4.02,5.82,130.76,0.0,61.32,0.954
+Net Flow Imbalance,14 Days,Holt-Winters Exp Smoothing,Statistical,5.04,6.4,183.23,0.0,56.6,0.985
+Net Flow Imbalance,14 Days,SARIMAX (ARIMA),Statistical,4.62,6.18,161.29,0.0,55.66,0.974
+Net Flow Imbalance,14 Days,Random Forest Regressor,Machine Learning,4.12,5.93,138.42,0.0,55.66,0.636
+Net Flow Imbalance,14 Days,Gradient Boosting Regressor,Machine Learning,4.43,6.34,150.39,0.0,56.6,0.63
+Net Flow Imbalance,14 Days,XGBoost Regressor,Machine Learning,4.43,6.22,139.71,0.0,56.6,0.83
+Net Flow Imbalance,30 Days,Naïve Persistence,Baseline,5.11,6.86,155.03,0.0,60.0,0.0
+Net Flow Imbalance,30 Days,Moving Average (7d),Baseline,3.59,5.05,115.36,0.0,72.22,0.945
+Net Flow Imbalance,30 Days,Holt-Winters Exp Smoothing,Statistical,3.73,5.09,119.03,0.0,68.89,0.957
+Net Flow Imbalance,30 Days,SARIMAX (ARIMA),Statistical,3.75,5.12,117.33,0.0,73.33,0.962
+Net Flow Imbalance,30 Days,Random Forest Regressor,Machine Learning,3.47,5.18,117.3,0.0,71.11,0.932
+Net Flow Imbalance,30 Days,Gradient Boosting Regressor,Machine Learning,7.21,8.43,284.4,0.0,54.44,0.32
+Net Flow Imbalance,30 Days,XGBoost Regressor,Machine Learning,10.91,11.85,507.43,0.0,52.22,0.771
